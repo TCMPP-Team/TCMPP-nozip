@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
   s.name                  = "TCMPPSDK"
-  s.version               = "2.2.10" 
+  s.version               = "2.2.14" 
   s.summary               = "The Tencent Cloud Mini Program Platform SDK."
   s.homepage              = "https://cloud.tencent.com/product/tcmpp"
   s.authors               = "Tencent"  
-  s.source           = { :http => 'https://tmf-warehouse-1314481471.cos.ap-beijing.myqcloud.com/tcmpp/ios-sdk/nozip/TCMPPSDK/2.2.10/TCMPPSDK_2.2.10.xcframework.zip' }
+  s.source           = { :http => 'https://tmf-warehouse-1314481471.cos.ap-beijing.myqcloud.com/tcmpp/ios-sdk/nozip/TCMPPSDK/2.2.14/TCMPPSDK_2.2.14.xcframework.zip' }
   s.license               = { :type => 'Proprietary',
 			:text => <<-LICENSE
 				copyright 2019 tencent Ltd. All rights reserved.
