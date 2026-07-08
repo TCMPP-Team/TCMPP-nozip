@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
   s.name                  = "TCMPPSDK"
-  s.version               = "2.3.9" 
+  s.version               = "2.4.0" 
   s.summary               = "The Tencent Cloud Mini Program Platform SDK."
   s.homepage              = "https://cloud.tencent.com/product/tcmpp"
   s.authors               = "Tencent"  
-  s.source           = { :http => 'https://tmf-warehouse-1314481471.cos.ap-beijing.myqcloud.com/tcmpp/ios-sdk/nozip/TCMPPSDK/2.3.9/TCMPPSDK_2.3.9.xcframework.zip' }
+  s.source           = { :http => 'https://tmf-warehouse-1314481471.cos.ap-beijing.myqcloud.com/tcmpp/ios-sdk/nozip/TCMPPSDK/2.4.0/TCMPPSDK_2.4.0.xcframework.zip' }
   s.license               = { :type => 'Proprietary',
 			:text => <<-LICENSE
 				copyright 2019 tencent Ltd. All rights reserved.
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.dependency 'Brotli'
 
   s.frameworks = 'CoreTelephony', 'SystemConfiguration'
-  s.libraries  = 'sqlite3'
+  s.libraries  = 'sqlite3', 'c++'
 
   # ----- 编译选项 -----
   s.ios.deployment_target = "9.0"
